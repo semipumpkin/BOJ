@@ -17,6 +17,7 @@ for _ in range(5):
     for i in range(1, N):
         for j in range(i):
             if (road[i] == 'B' and road[j] == 'J') or (road[i] == 'O' and road[j] == 'B') or (road[i] == 'J' and road[j] == 'O'):
+                pass
 
 
 
